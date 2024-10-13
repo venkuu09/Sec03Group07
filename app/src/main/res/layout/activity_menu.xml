@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_non_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-Veg"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button_veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veg"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button_breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button_desserts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desserts"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/button_drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drinks"
+        android:layout_margin="10dp" />
+</LinearLayout>
