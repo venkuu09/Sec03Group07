@@ -27,6 +27,8 @@
         <activity android:name=".NonVegActivity" />
         <activity android:name=".VegActivity" />
         <activity android:name=".BreakfastActivity" />
+        <activity android:name=".DessertsActivity" />
+        <activity android:name=".DrinksActivity" />
     </application>
 
 </manifest>

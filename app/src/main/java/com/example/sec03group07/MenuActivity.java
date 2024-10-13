@@ -34,13 +34,13 @@ public class MenuActivity extends AppCompatActivity {
         });
 
         dessertsButton.setOnClickListener(v -> {
-            // Navigate to Desserts recipes activity
-            // startActivity(new Intent(MenuActivity.this, DessertsActivity.class));
+            Intent intent = new Intent(MenuActivity.this, DessertsActivity.class);
+            startActivity(intent);
         });
 
         drinksButton.setOnClickListener(v -> {
-            // Navigate to Drinks recipes activity
-            // startActivity(new Intent(MenuActivity.this, DrinksActivity.class));
+            Intent intent = new Intent(MenuActivity.this, DrinksActivity.class);
+            startActivity(intent);
         });
     }
 }
