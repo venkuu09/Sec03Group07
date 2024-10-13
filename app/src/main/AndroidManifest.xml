@@ -29,6 +29,7 @@
         <activity android:name=".BreakfastActivity" />
         <activity android:name=".DessertsActivity" />
         <activity android:name=".DrinksActivity" />
+        <activity android:name=".FavoritesActivity" />
     </application>
 
 </manifest>
