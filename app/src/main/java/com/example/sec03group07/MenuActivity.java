@@ -42,5 +42,8 @@ public class MenuActivity extends AppCompatActivity {
             Intent intent = new Intent(MenuActivity.this, DrinksActivity.class);
             startActivity(intent);
         });
+        favoritesButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MenuActivity.this, FavoritesActivity.class);
+            startActivity(intent);
     }
 }
