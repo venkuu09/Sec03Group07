@@ -17,6 +17,7 @@ public class MenuActivity extends AppCompatActivity {
         Button breakfastButton = findViewById(R.id.button_breakfast);
         Button dessertsButton = findViewById(R.id.button_desserts);
         Button drinksButton = findViewById(R.id.button_drinks);
+        Button favoritesButton = findViewById(R.id.button_favorites);
 
         nonVegButton.setOnClickListener(v -> {
             Intent intent = new Intent(MenuActivity.this, NonVegActivity.class);
@@ -45,5 +46,6 @@ public class MenuActivity extends AppCompatActivity {
         favoritesButton.setOnClickListener(v -> {
             Intent intent = new Intent(MenuActivity.this, FavoritesActivity.class);
             startActivity(intent);
+        });
     }
 }
