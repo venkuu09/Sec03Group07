@@ -5,45 +5,66 @@
     android:padding="16dp"
     android:gravity="center">
 
-    <Button
-        android:id="@+id/button_non_veg"
-        android:layout_width="wrap_content"
+    <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Non-Veg"
-        android:layout_margin="10dp" />
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:rowCount="3">
 
-    <Button
-        android:id="@+id/button_veg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Veg"
-        android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/button_non_veg"
+            android:layout_width="189dp"
+            android:layout_height="60dp"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#FFDD44"
+            android:text="Non-Veg" />
 
-    <Button
-        android:id="@+id/button_breakfast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Breakfast"
-        android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/button_veg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#FFAA44"
+            android:text="Veg" />
 
-    <Button
-        android:id="@+id/button_desserts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Desserts"
-        android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/button_breakfast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#44FFAA"
+            android:text="Breakfast" />
 
-    <Button
-        android:id="@+id/button_drinks"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Drinks"
-        android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/button_desserts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#44AAFF"
+            android:text="Desserts" />
 
-    <Button
-        android:id="@+id/button_favorites"  
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Favorites"
-        android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/button_drinks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#AA44FF"
+            android:text="Drinks" />
+
+        <Button
+            android:id="@+id/button_favorites"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#FF44AA"
+            android:text="Favorites" />
+    </GridLayout>
 </LinearLayout>
