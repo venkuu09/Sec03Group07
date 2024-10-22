@@ -30,6 +30,8 @@
         <activity android:name=".DessertsActivity" />
         <activity android:name=".DrinksActivity" />
         <activity android:name=".FavoritesActivity" />
+        <activity android:name=".ShoppingActivity" />
+
     </application>
 
 </manifest>

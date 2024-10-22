@@ -66,5 +66,14 @@
             android:layout_margin="10dp"
             android:background="#FF44AA"
             android:text="Favorites" />
+
+        <Button
+            android:id="@+id/button_shopping"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:background="#FF44AA"
+            android:text="Shopping" />
     </GridLayout>
 </LinearLayout>
